@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200/"})
+@CrossOrigin(origins = {"https://portfoliofrancomedina.firebaseapp.com/"})
 public class SkillsControler {
     @Autowired
     private ISkillsService skillsService;
