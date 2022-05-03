@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
-@CrossOrigin(origins = {"https://portfoliofrancomedina.firebaseapp.com/"})
+@CrossOrigin(origins = {"https://portfoliofrancomedina-89f9b.web.app"})
 public class Personacontroler {
 
     @Autowired
