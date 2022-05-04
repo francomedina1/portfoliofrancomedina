@@ -21,7 +21,8 @@ public class PersonaService implements iPersonaService{
     }
 
     @Override
-    public List<Persona> listarPersonas() {
-        return persdao.findAll();
+    public Persona listarPersonas() {
+        return persdao.findTopByOrderByIdDesc();
+
     }
 }

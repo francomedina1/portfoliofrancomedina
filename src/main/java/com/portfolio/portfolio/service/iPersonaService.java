@@ -7,5 +7,5 @@ import java.util.List;
 public interface iPersonaService {
 
     public void crearPersona(Persona persona);
-    public List<Persona> listarPersonas();
+    public Persona listarPersonas();
 }
