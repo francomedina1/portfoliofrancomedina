@@ -5,8 +5,6 @@ import com.portfolio.portfolio.repository.PersonaDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class PersonaService implements iPersonaService{
 
@@ -23,6 +21,6 @@ public class PersonaService implements iPersonaService{
     @Override
     public Persona listarPersonas() {
         return persdao.findTopByOrderByIdDesc();
-
     }
+
 }

@@ -21,6 +21,7 @@ public class Persona {
     String description;
     String bannerimage;
 
+
     public Persona(Long id, String fullName, String position, String description, String bannerimage) {
 
         this.id = id;
@@ -28,6 +29,7 @@ public class Persona {
         this.position = position;
         this.description = description;
         this.bannerimage = bannerimage;
+
     }
 
     public Persona() {
